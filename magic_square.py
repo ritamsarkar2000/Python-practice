@@ -1,4 +1,5 @@
-# creating magic aquare
+# creating magic square (sum of each element in each row = sum of each element in each column = sum of each element in each diagonal)
+# in a magic square every elemnt should be different
 
 def magic_squarea(n):
     my_matrix = []
@@ -6,7 +7,7 @@ def magic_squarea(n):
         l = []
         for j in range(n):
             l.append(0)
-        my_matrix.append(l)
+        my_matrix.append(l) # This will creat a zero matrix of n * n
 
     i = n // 2
     j = n - 1
