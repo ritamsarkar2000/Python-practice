@@ -6,6 +6,8 @@ for i in range(n):
     li = list(map(int, input().split()))
     m.append(li)
 
+    
+#to keep the track
 k = 0;
 l = 0
 row = n - 1;
