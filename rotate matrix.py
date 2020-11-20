@@ -1,8 +1,8 @@
-n = int(input())
+n = int(input('Enter the size of matrix , Format: if the size is n*n , enter only n: '))   
 
 m = []
 
-for i in range(n):
+for i in range(n):                          #to take the matrix as input
     li = list(map(int, input().split()))
     m.append(li)
 
@@ -13,7 +13,7 @@ l = 0
 row = n - 1;
 col = n - 1
 
-while k < row and l < col:
+while k < row and l < col:           #to rotate the matrix
 
     prv = m[k + 1][l]
 
